@@ -12,7 +12,7 @@ setuptools.setup(
     description='Routines to calculate the linear stability of a streaky flow',
     packages=setuptools.find_packages(),
     install_requires=[
-        'scipy==1.6.3',
+        'scipy==1.7.2',
     ],
     tests_require=tests_require,
     extras_requires={'test': tests_require}
