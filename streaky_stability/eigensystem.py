@@ -85,7 +85,7 @@ class EigenvalueSystem(object):
         Note that the second order system can be found by differentiating the
         first order system with respect to y to find that,
 
-        b_{ij} = d/dy (a_{ij}) + \sum_{l} a_{il} a_{lj}
+        b_{ij} = d/dy (a_{ij}) + sum_{l} a_{il} a_{lj}
 
         Parameters
         ----------
